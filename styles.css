@@ -1,0 +1,232 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: arial, sans-serif;
+    background-color: #E8F3D6;
+}
+
+.pro {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: -425px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    color: #FAAB78;
+}
+
+h2 {
+    color: #FAAB78;
+    margin: 0;
+}
+
+h3 {
+    color: #FAAB78;
+    margin: 0;
+}
+
+p {
+    color: #FAAB78;
+    margin-top: -140px;
+}
+
+
+
+.top-container {
+    padding-top: 50px;
+    height: 700px;
+}
+
+#name-border {
+    position: relative;
+    margin: -200px 200px 0px 200px;
+}
+
+#top-burst {
+    margin-left: 800px;
+    color: #E8F3D6;
+
+}
+
+#middle-burst {
+    position: relative;
+    margin-left: -900px;
+    top: 100px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 20px;
+    width: 12%;
+    color: #FFFBAC;
+    margin-top: 300px
+}
+
+
+.middle-container {
+    background-color: #E8F3D6;
+    padding-top: 50px;
+    align: center;
+    margin-bottom: 0px;
+}
+
+#topmidburst {
+    position: relative;
+    right: 500px;
+    bottom: 270px;
+}
+
+#midmidburst {
+    position: relative;
+    right: 200px;
+}
+
+#midrightburst {
+    position: relative;
+    left: 480px;
+    top: -50px;
+}
+
+.profile-header {
+    margin-left: 510px;
+    margin-top: -280px
+}
+
+.profile-p {
+    margin-top: -80px;
+    margin-left: 800px;
+    margin-right: 300px;
+}
+
+#self {
+    border-radius: 1000px;
+    border-color: #FAAB78;
+    margin-left: -650px;
+}
+
+.skill-row {
+    margin: 100px;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+#skilltopburst {
+    position: relative;
+    right: 400px;
+    bottom: 100px
+}
+
+#glasses-icon {
+    position: absolute;
+    left: 660px;
+}
+
+#optical-header {
+    position: relative;
+    bottom: 0px;
+}
+
+#skillmidburst {
+    position: relative;
+    left: 500px
+}
+
+#optical-skill-list {
+    line-height: 50px;
+    margin: -50px 300px 0 300px;
+    text-align: left;
+    color: #FAAB78;
+
+}
+
+#skill2topburst {
+    position: relative;
+    right: 500px;
+    bottom: 200px;
+}
+
+.computericon {
+    position: absolute;
+    left: 660px;
+}
+
+#skill2midburst {
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+#tech-header {
+    position: relative;
+    top: 100px
+}
+
+#tech-skill-list {
+    line-height: 50px;
+    margin: 150px 200px 0 525px;
+    text-align: left;
+    color: #FAAB78;
+
+}
+
+#skill2bottomburst {
+    position: relative;
+    right: 400px;
+}
+
+#contact-hr {
+    margin-top: -50px;
+    margin-bottom: 100px
+}
+
+.contact-me {
+    padding-top: 80px;
+}
+
+.phoneicon {
+    position: absolute;
+    right: 660px;
+    top: 200px,
+}
+
+#get-in-touch {
+    position: relative;
+    top: -80px;
+}
+
+.btn {
+    position: relative;
+    top: 250px;
+    color: #FAAB78;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px
+}
+
+#visit-p {
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+    padding-bottom: 10px
+}
+
+.bottom-container {
+}
+
+.footer-link {
+    color: #FAAB78;
+    position: relative;
+    bottom: -370px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#tag {
+    margin-top: 350px;
+    margin-left: 1300px
+}
+
