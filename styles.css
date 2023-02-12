@@ -1,118 +1,131 @@
 
+html {
+    max-width: 1600px;
+}
+
 body {
-    margin: 0;
+    margin: 0 auto 0 auto;
+    align: center;
     text-align: center;
     font-family: arial, sans-serif;
     background-color: #E8F3D6;
+    width: 720px;
+}
+
+
+
+
+.top-container {
+    height: 800px;
+}
+
+#name-border {
+    margin: 0 auto 0 auto;
+}
+
+#top-burst {
+    position: relative;
+    bottom: 650px;
+    left: 400px;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    color: #FAAB78;
+    position: relative;
+    bottom: 575px;
+}
+
+#middle-burst {
+    position: relative;
+    right: 400px;
+    bottom: 400px;
 }
 
 .pro {
     font-weight: bold;
 }
 
-h1 {
-    margin-top: -425px;
-    font-family: 'Homemade Apple', cursive;
-    font-size: 50px;
-    color: #FAAB78;
-}
-
-h2 {
-    color: #FAAB78;
-    margin: 0;
-}
-
-h3 {
-    color: #FAAB78;
-    margin: 0;
-}
-
-p {
-    color: #FAAB78;
-    margin-top: -140px;
-}
-
-
-
-.top-container {
-    padding-top: 50px;
-    height: 700px;
-}
-
-#name-border {
+#programmer-p {
     position: relative;
-    margin: -200px 200px 0px 200px;
-}
-
-#top-burst {
-    margin-left: 800px;
-    color: #E8F3D6;
+    bottom: 700px;
 
 }
 
-#middle-burst {
-    position: relative;
-    margin-left: -900px;
-    top: 100px;
-}
 
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 20px;
-    width: 12%;
-    color: #FFFBAC;
-    margin-top: 300px
-}
 
 
 .middle-container {
-    background-color: #E8F3D6;
-    padding-top: 50px;
-    align: center;
-    margin-bottom: 0px;
+    width: 720px;
+    height: 3000px;
+    padding: 10%;
+}
+
+.profile {
+    height: 600px;
+    width: 800px;
 }
 
 #topmidburst {
     position: relative;
-    right: 500px;
-    bottom: 270px;
+    right: 300px;
+    bottom: 10px;
 }
 
 #midmidburst {
     position: relative;
-    right: 200px;
+    left: 100px;
+    top: 300px;
+}
+
+#self {
+    position: absolute;
+    left: 560px;
+    border-radius: 1000px;
+    border-color: #FAAB78;
+}
+
+.profile-header {
+}
+
+
+h2 {
+    color: #FAAB78;
+    position: relative;
+    top: 350px;
+    right: 100px;
 }
 
 #midrightburst {
     position: relative;
-    left: 480px;
-    top: -50px;
-}
-
-.profile-header {
-    margin-left: 510px;
-    margin-top: -280px
+    right: 480px;
+    top: 200px;
 }
 
 .profile-p {
-    margin-top: -80px;
-    margin-left: 800px;
-    margin-right: 300px;
+    position: relative;
+    width: 500px;
+    top: 250px;
+    left: 45px
 }
 
-#self {
-    border-radius: 1000px;
-    border-color: #FAAB78;
-    margin-left: -650px;
+#biscuit {
+    margin-top: 120px;
+    margin-right: 380px;
 }
 
-.skill-row {
-    margin: 100px;
-}
+
+
 
 .skills {
-    margin-top: 100px;
+    padding-top: 10%;
+}
+
+#skillets {
+    position: relative;
+    top: 10px;
+    right: 60px;
 }
 
 #skilltopburst {
@@ -122,37 +135,69 @@ hr {
 }
 
 #glasses-icon {
-    position: absolute;
-    left: 660px;
+    position: relative;
+    top: 100px;
+    right: 110px;
 }
 
 #optical-header {
     position: relative;
-    bottom: 0px;
+    right: 60px;
 }
 
 #skillmidburst {
     position: relative;
-    left: 500px
+    left: 400px
+}
+
+h3 {
+    color: #FAAB78;
+    margin: 0;
 }
 
 #optical-skill-list {
-    line-height: 50px;
-    margin: -50px 300px 0 300px;
-    text-align: left;
+    line-height: 40px;
+    width: 500px;
+    margin-left: 20px;
+    text-align: center;
     color: #FAAB78;
+    list-style-type: none;
 
+}
+
+p {
+    color: #FAAB78;;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 20px;
+    width: 12%;
+    color: #FFFBAC;
+}
+
+
+
+
+
+
+
+.skill-row {
+    height: 700px;
+    padding-bottom: 30px;
 }
 
 #skill2topburst {
     position: relative;
-    right: 500px;
-    bottom: 200px;
+    right: 340px;
+    bottom: 150px;
 }
 
 .computericon {
-    position: absolute;
-    left: 660px;
+    position: relative;
+    right: 50px;
+    top: 150px;
 }
 
 #skill2midburst {
@@ -163,45 +208,60 @@ hr {
 
 #tech-header {
     position: relative;
-    top: 100px
+    top: 150px;
+    right: 50px;
 }
 
-#tech-skill-list {
-    line-height: 50px;
-    margin: 150px 200px 0 525px;
-    text-align: left;
+#tech-skill-list {line-height: 40px;
+    width: 500px;
+    margin-left: 20px;
+    text-align: center;
     color: #FAAB78;
-
+    list-style-type: none;
+    margin-top: 200px;
 }
+
+
+
+
+
+
+
+
+
+
 
 #skill2bottomburst {
     position: relative;
-    right: 400px;
+    right: 600px;
+    bottom: 100px;
 }
 
 #contact-hr {
-    margin-top: -50px;
-    margin-bottom: 100px
+    margin-top: 200px;
+    margin-right: 370px;
 }
 
 .contact-me {
-    padding-top: 80px;
+    height: 700px;
+    width: 600px;
 }
 
 .phoneicon {
     position: absolute;
-    right: 660px;
+    right: 640px;
     top: 200px,
 }
 
 #get-in-touch {
     position: relative;
-    top: -80px;
+    left: 0px;
 }
 
 .btn {
     position: relative;
-    top: 250px;
+    top: 360px;
+    left: 10px;
     color: #FAAB78;
     font-family: 'Homemade Apple', cursive;
     font-size: 30px
@@ -209,24 +269,29 @@ hr {
 
 #visit-p {
     position: relative;
-    top: 400px;
+    top: 370px;
     font-size: 20px;
     padding-bottom: 10px
 }
 
 .bottom-container {
+    margin-top: 50px;
+    height: 500px;
+    width: 600px;
+
 }
 
 .footer-link {
     color: #FAAB78;
     position: relative;
-    bottom: -370px;
+    left: 70px;
     padding: 20px;
     font-size: 20px;
 }
 
 #tag {
-    margin-top: 350px;
-    margin-left: 1300px
+    position: relative;
+    top: 520px;
+    left: 60px;
 }
 
